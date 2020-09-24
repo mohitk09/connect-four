@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.game{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 625px;
+    height:575px;
+    background: rgb(99, 54, 47);
+    border: 1px solid black;
+    padding: 1rem;
+}
+.cell{
+    width: 85px;
+    height: 85px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.reset{
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
