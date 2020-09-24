@@ -127,5 +127,6 @@ reset.addEventListener('click', () =>{
     tableCell.forEach(cell =>{
         cell.style.backgroundColor = 'white';
     });
+    alert('Game reset');
     return currentPlayer = 1;
 }) 
