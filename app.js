@@ -15,7 +15,7 @@ if(!player1) var player1 = prompt('Player One: Please enter your name, your colo
 
 player1Color = 'yellow';
 
-if(!player2) var player2 = prompt('Player One: Please enter your name, your color is red');
+if(!player2) var player2 = prompt('Player two: Please enter your name, your color is red');
 
 player2Color = 'red';
 
@@ -44,7 +44,7 @@ function changeColor(e){
                 return currentPlayer = 2;
             }else{
                 matrixRow[i].children[column].style.backgroundColor = player2Color;
-                playerChance.textContent = `${player1}'s turn`;
+                playerChance.textContent = `${player2}'s turn`;
                 if(rowCheck() || columnCheck() || diagonalCheck() ){
                     playerChance.textContent = `${player2} wins`;
                     return (alert(`winner ${player2}`));
